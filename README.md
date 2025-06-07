@@ -1,25 +1,34 @@
-# About Pink-Cat-Boo
+# Pink-Cat-Boo-Leah
 
-Hi~☆  
-This is a cute & warm theme, especially for coder girls. Mainly designed with rose pink, light purple, banana yellow and sky blue.  
-Hope yall like it (ง •▿•́)ง 
+A personal edit of the Pink-Cat-Boo theme for Visual Studio Code, featuring a dark UI theme with a pink color scheme.
 
-### Screenshot
-![Preview](https://raw.githubusercontent.com/ftsamoyed/PinkCatBoo/master/preview.png)
+## Development Setup
 
-### Update
-##### v1.3.0 (2018/10/12)
- - Adapt custom title bar (only apply for VS Code versions 1.28 and higher)
- 
-##### v1.2.0 (2018/6/14)
- - Change colors of error/warning hints in edtor and sidebar
- - Add top border color to active tab
- - A new theme design of notification center (only apply for VS Code versions 1.21 and higher)
+1. Clone the repository:
 
-##### v1.1.0 (2018/3/20)
- - Change the color of scroll bar
- - Fit the new design for notification center (only apply for VS Code versions 1.21 and higher)
- - Change the background color of editor group header
+   ```bash
+   git clone https://github.com/YehaNeko/PinkCatBoo-Personal-Edit.git
+   cd PinkCatBoo-Personal-Edit
+   ```
 
-# Based on
-Pink-Cat-Boo theme was on the basis of monokai dimmed.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Make your theme modifications in the `themes/pink-cat-boo-edit.json` file.
+
+4. Package the theme:
+
+   ```bash
+   npm run package
+   ```
+
+   This will create a `.vsix` file in the root directory.
+
+5. Install the theme locally:
+   - Open VS Code.
+   - Open the Command Palette (default `Ctrl+Shift+P`).
+   - Type "Install from VSIX".
+   - Select the generated `.vsix` file.
