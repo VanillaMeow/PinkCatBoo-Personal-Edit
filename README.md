@@ -1,6 +1,13 @@
-# Pink-Cat-Boo-Leah
+# PinkCatBoo-Personal-Edit
 
 A personal edit of the Pink-Cat-Boo theme for Visual Studio Code, featuring a dark UI theme with a pink color scheme.
+
+## Installation
+
+- Download the `.vsix` file from the [releases](https://github.com/YehaNeko/PinkCatBoo-Personal-Edit/releases) page.
+- Inside VS Code, open the Command Palette (default `Ctrl+Shift+P`).
+- Type and select "Install from VSIX".
+- Select the downloaded `.vsix` file.
 
 ## Development Setup
 
@@ -28,7 +35,6 @@ A personal edit of the Pink-Cat-Boo theme for Visual Studio Code, featuring a da
    This will create a `.vsix` file in the root directory.
 
 5. Install the theme locally:
-   - Open VS Code.
-   - Open the Command Palette (default `Ctrl+Shift+P`).
-   - Type "Install from VSIX".
+   - Inside VS Code, open the Command Palette (default `Ctrl+Shift+P`).
+   - Type and select "Install from VSIX".
    - Select the generated `.vsix` file.
