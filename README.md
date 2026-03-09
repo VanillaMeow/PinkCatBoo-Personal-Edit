@@ -4,37 +4,33 @@ A personal edit of the Pink-Cat-Boo theme for Visual Studio Code, featuring a da
 
 ## Installation
 
-- Download the `.vsix` file from the [releases](https://github.com/YehaNeko/PinkCatBoo-Personal-Edit/releases) page.
-- Inside VS Code, open the Command Palette (default `Ctrl+Shift+P`).
-- Type and select "Install from VSIX".
+- Download the `.vsix` file from the [releases](https://github.com/VanillaMeow/PinkCatBoo-Personal-Edit/releases) page.
+- Inside VSCode, open the Command Palette (default `Ctrl+Shift+P`).
+- Type and select "Install from VSIX...".
 - Select the downloaded `.vsix` file.
 
 ## Development Setup
 
-1. Clone the repository:
+You need to have the following dependencies installed:
 
-   ```bash
-   git clone https://github.com/YehaNeko/PinkCatBoo-Personal-Edit.git
-   cd PinkCatBoo-Personal-Edit
-   ```
+- [Git](https://git-scm.com/)
+- [Yarn](https://yarnpkg.com/)
 
-2. Install dependencies:
+```sh
+# 1. Clone the repository
+git clone https://github.com/VanillaMeow/PinkCatBoo-Personal-Edit.git
+cd PinkCatBoo-Personal-Edit
 
-   ```bash
-   npm install
-   ```
+# 2. Install dependencies
+yarn install
 
-3. Make your theme modifications in the `themes/pink-cat-boo-edit.json` file.
+# 3. Edit `themes/pink-cat-boo-edit.json`
+code .
 
-4. Package the theme:
+# 4. Build the VSIX package
+yarn package
 
-   ```bash
-   npm run package
-   ```
+# 5. Inside VSCode run "Install from VSIX..."
+#    and select the generated `.vsix` file in the project root.
 
-   This will create a `.vsix` file in the root directory.
-
-5. Install the theme locally:
-   - Inside VS Code, open the Command Palette (default `Ctrl+Shift+P`).
-   - Type and select "Install from VSIX".
-   - Select the generated `.vsix` file.
+```
