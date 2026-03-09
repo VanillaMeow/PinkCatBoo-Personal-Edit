@@ -1,3 +1,8 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.github/**
+*.vsix
+bun.lock
+package-lock.json
+yarn.lock
