@@ -208,7 +208,8 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#DCBFF2"
+				"foreground": "#FF4791"
+				// "foreground": "#DCBFF2"
 			}
 		},
 		{
@@ -327,17 +328,15 @@
 				"foreground": "#FAE8B6"
 			}
 		},
-		// {
-		// 	"name": "F-string braces",
-		// 	"scope": [
-		// 		"constant.character.format.placeholder.other.python",
-		// 		"punctuation.definition.template-expression.begin.python",
-		// 		"punctuation.definition.template-expression.end.python"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#F075AE"
-		// 	}
-		// },
+		{
+			"name": "F-string prefix",
+			"scope": [
+				"storage.type.string.python"
+			],
+			"settings": {
+				"foreground": "#dcbff2"
+			}
+		},
 		{
 			"name": "Library function",
 			"scope": "support.function",
@@ -576,6 +575,7 @@
 		"property": "#DCBFF2",
 
 		"variable": "#EBA4AC",
+		"variable.classMember": "#DCBFF2",
 		"variable.declaration": "#EBA4AC",
 		"variable.readonly": "#FF7F9D",
 		"variable.defaultLibrary": "#58B896",
