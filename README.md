@@ -32,6 +32,6 @@ code .
 bun run package
 
 # 5. Inside VSCode run "Install from VSIX..."
-#    and select the generated `.vsix` file in the project root.
+#    and select the generated `.vsix` file in the `dist/` directory.
 
 ```
