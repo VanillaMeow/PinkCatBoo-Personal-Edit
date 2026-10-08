@@ -23,10 +23,11 @@
       }
     ]
   },
+  "packageManager": "bun@1.4.2",
   "scripts": {
     "package": "vsce package --no-dependencies"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.24.0"
+    "@vscode/vsce": "^4.0.0"
   }
 }

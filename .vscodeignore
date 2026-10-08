@@ -5,4 +5,3 @@
 *.vsix
 bun.lock
 package-lock.json
-yarn.lock
